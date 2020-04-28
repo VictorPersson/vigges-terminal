@@ -1,0 +1,73 @@
+// My perosnal Terminal settings
+// Row 26, 28 are local filepaths must be changed on each system. 
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+
+    "profiles":
+    {
+        "defaults":
+        {
+            "name": "Vigges Terminal",
+            "commandline": "powershell.exe",
+            "hidden": false
+        },
+        "list":
+        [
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Vigges Terminal",
+                "commandline": "powershell.exe",
+                "hidden": false,
+                "acrylicOpacity": 0.7,
+                "fontFace": "Cascadia Code",
+                "useAcrylic": true,
+                "startingDirectory": "C:/Users/vp-96/Documents/GitHubReps",
+                "colorScheme": "ViggeColors",
+                "backgroundImage": "C:/Users/vp-96/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/1.gif",
+                "backgroundImageOpacity" : 0.25
+
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+
+    "schemes": [
+        {
+            "name": "ViggeColors",
+            "black": "#141414",
+            "red": "#ff5555",
+            "green": "#98ec65",
+            "yellow": "#ffcc33",
+            "blue": "#00aaff",
+            "purple": "#aa88ff",
+            "cyan": "#88ddff",
+            "white": "#cccccc",
+            "brightBlack": "#414141",
+            "brightRed": "#ff8888",
+            "brightGreen": "#b6f292",
+            "brightYellow": "#ff5555",
+            "brightBlue": "#33bbff",
+            "brightPurple": "#cebbff",
+            "brightCyan": "#bbecff",
+            "brightWhite": "#ffffff",
+            "background": "#1e272e",
+            "foreground": "#ff8888"
+          }
+    ],
+
+    "keybindings": []
+}
