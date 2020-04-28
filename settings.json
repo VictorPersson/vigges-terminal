@@ -1,5 +1,6 @@
+
 // My perosnal Terminal settings
-// Row 26, 28 are local filepaths must be changed on each system. 
+// Row 28, 30 are local filepaths must be changed on each system. 
 
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
